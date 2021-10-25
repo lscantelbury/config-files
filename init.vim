@@ -10,14 +10,9 @@
 
 call plug#begin()
 
-Plug 'roxma/nvim-completion-manager'
-Plug 'scrooloose/nerdtree'
 Plug 'morhetz/gruvbox'
-Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'plasticboy/vim-markdown'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
