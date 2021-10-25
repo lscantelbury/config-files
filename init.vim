@@ -10,6 +10,7 @@
 
 call plug#begin()
 
+Plug 'roxma/nvim-completion-manager'
 Plug 'scrooloose/nerdtree'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
