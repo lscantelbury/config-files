@@ -7,7 +7,6 @@
 :set softtabstop=4
 :set mouse=a
 
-
 call plug#begin()
 
 Plug 'morhetz/gruvbox'
