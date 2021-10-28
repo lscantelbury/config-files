@@ -8,8 +8,14 @@
 :set mouse=a
 
 call plug#begin()
-
-Plug 'morhetz/gruvbox'
+"Plug 'vim-scripts/HTML-AutoCloseTag' "Fechar tags automaticamente em html"
+Plug 'alvan/vim-closetag' "Fechar tags html"
+Plug 'sonph/onehalf', { 'rtp': 'vim' } "Tema
+Plug 'morhetz/gruvbox' "Tema
+Plug 'kyoz/purify' " Tema
+Plug 'chriskempson/base16-vim'
+"Tema
+"
 Plug 'tpope/vim-fugitive'
 "Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
@@ -30,6 +36,9 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'w0rp/ale'
+Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'styled-components/vim-styled-components'
 
 set encoding=UTF-8
 
@@ -44,7 +53,7 @@ nmap <F8> :TagbarToggle<CR>
 
 :set completeopt-=preview " For No Previews
 
-:colorscheme jellybeans
+":colorscheme jellybeans
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
@@ -83,4 +92,4 @@ nnoremap <leader>; A;<esc>
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.confing/nvim/init.vim<cr>
 
-colorscheme gruvbox
+" colorscheme onehalf "gruvbox
