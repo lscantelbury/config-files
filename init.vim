@@ -55,6 +55,8 @@ nmap <F8> :TagbarToggle<CR>
 
 ":colorscheme jellybeans
 
+autocmd FileType html let b:coc_pairs_disabled = ['<']
+
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
