@@ -8,7 +8,6 @@
 :set mouse=a
 
 call plug#begin()
-"Plug 'vim-scripts/HTML-AutoCloseTag' "Fechar tags automaticamente em html"
 Plug 'alvan/vim-closetag' "Fechar tags html"
 Plug 'sonph/onehalf', { 'rtp': 'vim' } "Tema
 Plug 'morhetz/gruvbox' "Tema
@@ -48,7 +47,6 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
-
 nmap <F8> :TagbarToggle<CR>
 
 :set completeopt-=preview " For No Previews
@@ -94,4 +92,5 @@ nnoremap <leader>; A;<esc>
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.confing/nvim/init.vim<cr>
 
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 " colorscheme onehalf "gruvbox
