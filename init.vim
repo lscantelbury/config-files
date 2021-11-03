@@ -8,6 +8,7 @@
 :set mouse=a
 
 call plug#begin()
+Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag' "Fechar tags html"
 Plug 'sonph/onehalf', { 'rtp': 'vim' } "Tema
 Plug 'morhetz/gruvbox' "Tema
