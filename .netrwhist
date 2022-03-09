@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/luis/.config/nvim'
+let g:netrw_dirhist_6='/home/luis/Documentos/GitHub/star-wars-prolog'
+let g:netrw_dirhist_5='/home/luis/prolog/star_wars'
+let g:netrw_dirhist_4='/home/luis/Documentos/GitHub/chatbot-prolog'
+let g:netrw_dirhist_3='/home/luis/Documentos/GitHub'
+let g:netrw_dirhist_2='/home/luis/Documentos'
+let g:netrw_dirhist_1='/home/luis'
+let g:netrw_dirhist_0='/home/luis/prolog'
+let g:netrw_dirhist_9='/home/luis/Documentos/GitHub/chatbot-prolog'
+let g:netrw_dirhist_8='/home/luis/Documentos/GitHub'
