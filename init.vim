@@ -26,6 +26,7 @@ Plug 'sonph/onehalf', { 'rtp': 'vim' } "Tema
 Plug 'morhetz/gruvbox' "Tema
 Plug 'kyoz/purify' " Tema
 "
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
