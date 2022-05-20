@@ -42,7 +42,6 @@ Plug 'w0rp/ale'
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'styled-components/vim-styled-components'
-Plug 'ayu-theme/ayu-vim' " or other package manager
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 "...
 set encoding=UTF-8
@@ -54,6 +53,10 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 nmap <F8> :TagbarToggle<CR>
+noremap ç l
+noremap l k
+noremap k j
+noremap j h
 
 :set completeopt-=preview " For No Previews
 
@@ -105,7 +108,3 @@ nnoremap <leader>sv :source ~/.confing/nvim/init.vim<cr>
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 " colorscheme onehalf "gruvbox
 set termguicolors     " enable true colors support
-let ayucolor="light"  " for light version of theme
-let ayucolor="mirage" " for mirage version of theme
-let ayucolor="dark"   " for dark version of theme
-colorscheme ayu
