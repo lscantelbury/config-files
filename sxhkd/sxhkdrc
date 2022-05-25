@@ -106,8 +106,12 @@ ctrl + alt + Escape
 ctrl + shift + {q,r}
 	bspc {quit,wm -r}
 	
+# Change focused window
+super + {j,k,l,ccedilla}
+	bspc node -f {west,south,north,east}
+
 # Split horizontal, vertical or cancel
-super + {j,k,l,ccedilla,,q}
+super + ctrl + {j,k,l,ccedilla,,q}
 	bspc node -p {west,south,north,east,cancel}
 
 # Preselect the ratio
