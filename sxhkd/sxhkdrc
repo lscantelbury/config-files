@@ -36,8 +36,8 @@ super + {w,m,x,r,s}
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {f,w,c}
-	{thunar,firefox,code}
+super + shift + {l,f,c,w}
+	{thunar,firefox,code, sh -c 'XAPP_FORCE_GTKWINDOW_ICON=web-whatsapp firefox --class WebApp-Whatsapp6886 --profile /home/luis/.local/share/ice/firefox/Whatsapp6886 --no-remote https://web.whatsapp.com/'}
 
 # Terminal Apps
 ctrl + alt + {n,r,h}
