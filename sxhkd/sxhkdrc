@@ -36,11 +36,11 @@ super + {w,m,x,r,s}
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {l,f,c,w}
-	{thunar,firefox,code, whatsapp-for-linux}
+super + shift + {a,f,w}
+	{thunar,firefox,whatsapp-for-linux}
 
 # Terminal Apps
-ctrl + alt + {n,r,h}
+super + alt + {n,r,h}
 	alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e {nvim,ranger,htop}
 
 # Color Picker
@@ -48,7 +48,7 @@ super + p
 	color-gpick
 
 # Lockscreen
-ctrl + alt + l
+F1
     betterlockscreen --lock
 
 ##---------- System Keys ----------##
@@ -91,7 +91,7 @@ XF86Audio{Next,Prev,Play,Stop}
 ##---------- Bspwm ----------##
 
 # Close App
-super + {_,shift + }c
+super + c
 	bspc node -{c,k}
 
 # Reload Keybindings
@@ -110,8 +110,12 @@ ctrl + shift + {q,r}
 super + {j,k,l,ccedilla}
 	bspc node -f {west,south,north,east}
 
+# Move focused window
+super + shift + {j,k,l,ccedilla}
+	bspc node focused -s {west, south, north, east} --follow
+
 # Split horizontal, vertical or cancel
-super + ctrl + {j,k,l,ccedilla,,q}
+super + ctrl + {j,k,l,ccedilla,q}
 	bspc node -p {west,south,north,east,cancel}
 
 # Preselect the ratio
@@ -136,10 +140,6 @@ super + shift + space
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
-# Send the window to another edge of the screen
-super + {_,shift + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east}
-
 # Change focus to next window, including floating window
 alt + {_,shift + }Tab
 	bspc node -f {next.local,prev.local}
@@ -157,12 +157,12 @@ super + {_,shift + }{1-8}
 	bspc {desktop -f,node -d} '^{1-8}'
 
 # Expanding windows
-super + control + {Left,Right,Up,Down}
+alt + control + {j,ccedilla,l,k}
 	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
 	
 ## Shrinking windows
-super + alt + {Left,Right,Up,Down}
-	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
+super + alt + {j,ccedilla,l,k}
+	bspc node -z {right -20 0,left 20 0,bottom 0 -20,top 0 20}
 	
 ## Move floating windows
 alt + shift + {Left,Down,Up,Right}
