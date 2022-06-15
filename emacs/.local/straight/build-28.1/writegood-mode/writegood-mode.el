@@ -1,0 +1,1 @@
+/home/luis/.emacs.d/.local/straight/repos/writegood-mode/writegood-mode.el

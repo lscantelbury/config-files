@@ -1,0 +1,1 @@
+/home/luis/.emacs.d/.local/straight/repos/themes/doom-themes.el

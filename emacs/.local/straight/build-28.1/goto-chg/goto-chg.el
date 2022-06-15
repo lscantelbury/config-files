@@ -1,0 +1,1 @@
+/home/luis/.emacs.d/.local/straight/repos/goto-chg/goto-chg.el

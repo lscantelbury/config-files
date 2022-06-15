@@ -1,0 +1,1 @@
+/home/luis/.emacs.d/.local/straight/repos/emmet-mode/emmet-mode.el

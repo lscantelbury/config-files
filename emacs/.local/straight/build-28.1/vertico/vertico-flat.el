@@ -1,0 +1,1 @@
+/home/luis/.emacs.d/.local/straight/repos/vertico/extensions/vertico-flat.el

@@ -1,0 +1,1 @@
+/home/luis/.emacs.d/.local/straight/repos/emacs-load-relative/load-relative.el

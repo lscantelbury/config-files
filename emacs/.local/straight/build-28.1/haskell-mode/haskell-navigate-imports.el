@@ -1,0 +1,1 @@
+/home/luis/.emacs.d/.local/straight/repos/haskell-mode/haskell-navigate-imports.el
