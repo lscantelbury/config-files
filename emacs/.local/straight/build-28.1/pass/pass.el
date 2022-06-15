@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/pass/pass.el

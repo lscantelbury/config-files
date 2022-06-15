@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/mu4e-alert/mu4e-alert.el

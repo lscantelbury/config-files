@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/flycheck-golangci-lint/flycheck-golangci-lint.el

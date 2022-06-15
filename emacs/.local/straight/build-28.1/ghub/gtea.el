@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/ghub/lisp/gtea.el

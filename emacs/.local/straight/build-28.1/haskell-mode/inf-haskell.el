@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/haskell-mode/inf-haskell.el

@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/company-go/company-go.el

@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/groovy-emacs-modes/groovy-electric.el

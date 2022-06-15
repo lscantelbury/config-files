@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/password-store-otp.el/password-store-otp.el

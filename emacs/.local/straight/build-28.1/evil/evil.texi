@@ -1,1 +1,0 @@
-/home/luis/.emacs.d/.local/straight/repos/evil/doc/build/texinfo/evil.texi
